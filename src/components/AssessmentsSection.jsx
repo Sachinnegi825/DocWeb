@@ -55,7 +55,8 @@ const AssessmentsSection = () => {
               key={index}
               className="bg-white shadow-lg rounded-lg p-6 max-w-xs w-full flex flex-col items-center"
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false }}
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)",
