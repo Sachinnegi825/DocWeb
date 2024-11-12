@@ -95,7 +95,9 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <h3 className="font-semibold text-xl mb-4">Contact Us</h3>
+            <h3 className="font-semibold text-xl mb-4 text-center">
+              Contact Us
+            </h3>
             <div className="flex gap-6 text-2xl justify-center md:justify-start">
               <a
                 href="https://www.facebook.com"
