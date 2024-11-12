@@ -9,7 +9,6 @@ const HeroSection = () => {
       style={{ fontFamily: "Kanit, sans-serif" }}
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-5 justify-between space-y-8 md:space-y-0 max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Left Side Content */}
         <motion.div
           className="flex flex-col justify-center text-left text-white space-y-4 md:w-1/2"
           initial={{ opacity: 0, x: -50 }}
@@ -40,7 +39,6 @@ const HeroSection = () => {
           </motion.p>
         </motion.div>
 
-        {/* Right Side Image */}
         <motion.div
           className="flex justify-center md:justify-end md:w-1/2"
           initial={{ opacity: 0, x: 50 }}

@@ -8,7 +8,6 @@ const InfoSection = () => {
     <section className="py-16 bg-gradient-to-r from-[#4abdac] to-[#3a8f88]">
       <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="flex flex-col gap-10 md:gap-1 md:flex-row items-center justify-between">
-          {/* Left Side Content */}
           <motion.div
             className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mt-6 md:mt-0"
             initial={{ opacity: 0, y: 50 }}
@@ -47,7 +46,6 @@ const InfoSection = () => {
             </div>
           </motion.div>
 
-          {/* Right Side Image */}
           <motion.div
             className="w-full md:w-1/2 flex justify-center"
             initial={{ opacity: 0, x: -50 }}

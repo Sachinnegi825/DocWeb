@@ -5,7 +5,6 @@ const AssociationSection = () => {
   return (
     <section className="py-16 bg-[#4abdac]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Heading */}
         <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, y: -50 }}
@@ -22,7 +21,6 @@ const AssociationSection = () => {
           </p>
         </motion.div>
 
-        {/* Association Image */}
         <motion.div
           className="flex justify-center"
           initial={{ opacity: 0, scale: 0.95 }}

@@ -21,7 +21,6 @@ const Footer = () => {
     <footer className="bg-[#45a395] text-white py-12 relative">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
-          {/* Left Side Logo and Description */}
           <motion.div
             className="flex flex-col items-center md:items-start gap-4"
             initial={{ opacity: 0, y: 20 }}
@@ -40,7 +39,6 @@ const Footer = () => {
             </p>
           </motion.div>
 
-          {/* Navigation Links */}
           <motion.div
             className="flex flex-col gap-4 text-center md:text-left"
             initial={{ opacity: 0, y: 20 }}
@@ -135,7 +133,6 @@ const Footer = () => {
           </motion.div>
         </div>
 
-        {/* Copyright Section */}
         <div className="text-center mt-12">
           <p className="text-lg text-[#3a3939]">
             <strong>
@@ -144,7 +141,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Scroll to Top Arrow */}
         <motion.div
           className="fixed bottom-8 right-8 bg-[#4abdac] p-3 rounded-full shadow-lg cursor-pointer hover:bg-[#388f87] transition duration-300"
           onClick={scrollToTop}
