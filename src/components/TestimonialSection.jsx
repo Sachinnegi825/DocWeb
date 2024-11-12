@@ -58,7 +58,7 @@ const TestimonialSection = () => {
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
-              className="p-4 !w-[350px] bg-white rounded-lg shadow-lg flex flex-col justify-between items-center text-center cursor-pointer"
+              className="p-4  md:!w-[350px] bg-white rounded-lg shadow-lg flex flex-col justify-between items-center text-center cursor-pointer"
               whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
             >
               <img
