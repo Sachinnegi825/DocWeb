@@ -93,43 +93,45 @@ const Footer = () => {
           </motion.div>
 
           <motion.div
-            className="flex gap-6 text-2xl justify-center md:justify-start"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <a
-              href="https://www.facebook.com"
-              className="hover:text-[#4abdac] transition duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://www.twitter.com"
-              className="hover:text-[#4abdac] transition duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="https://www.linkedin.com"
-              className="hover:text-[#4abdac] transition duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedinIn />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              className="hover:text-[#4abdac] transition duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </a>
+            <h3 className="font-semibold text-xl mb-4">Contact Us</h3>
+            <div className="flex gap-6 text-2xl justify-center md:justify-start">
+              <a
+                href="https://www.facebook.com"
+                className="hover:text-[#4abdac] transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF />
+              </a>
+              <a
+                href="https://www.twitter.com"
+                className="hover:text-[#4abdac] transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
+              </a>
+              <a
+                href="https://www.linkedin.com"
+                className="hover:text-[#4abdac] transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+              <a
+                href="https://www.instagram.com"
+                className="hover:text-[#4abdac] transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+            </div>
           </motion.div>
         </div>
 
